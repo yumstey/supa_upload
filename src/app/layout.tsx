@@ -28,7 +28,9 @@ export default function RootLayout({
         <ColorSchemeScript />
       </head>
       <body>
-        <MantineProvider>
+        <MantineProvider   theme={{
+        fontFamily: "Arimo, sans-serif",
+      }}>
           {children}
         </MantineProvider>
       </body>

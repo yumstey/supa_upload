@@ -73,7 +73,7 @@ export const Login = () => {
   });
 
   setTimeout(() => {
-    router.push("/");
+    router.push("/workSpace");
   }, 1000);
     }
 
